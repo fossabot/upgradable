@@ -1,0 +1,29 @@
+{
+  "name": "upgradable",
+  "version": "0.0.1",
+  "description": "Interactive upgrade machine for NPM CLI tools",
+  "author": "Omri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/upgradable.git"
+  },
+  "main": "lib/start/index.js",
+  "scripts": {
+    "start": "./index.js"
+  },
+  "bin": {
+    "upgradable": "./index.js"
+  },
+  "publishConfig": {
+    "tag": "latest",
+    "tag-version-prefix": ""
+  },
+  "dependencies": {
+    "boxt": "^0.2.0",
+    "colors": "^1.1.2",
+    "npm": "^5.6.0",
+    "prompt-confirm": "^1.2.0",
+    "semver": "^5.5.0"
+  }
+}
