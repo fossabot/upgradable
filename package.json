@@ -1,6 +1,6 @@
 {
   "name": "upgradable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive upgrade machine for NPM CLI tools",
   "author": "Omri",
   "license": "MIT",
