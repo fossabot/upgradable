@@ -18,7 +18,7 @@ Shorthand
 require('upgradable')(require('./package.json'));
 ```
 
-<img width="590" alt="image" src="https://user-images.githubusercontent.com/516342/36251069-8125d026-1248-11e8-86c7-8b4307a5774c.png">
+![image](https://user-images.githubusercontent.com/516342/36352483-6a5c780a-14c2-11e8-974d-9eebb0083e59.png)
 
 ### options
 
