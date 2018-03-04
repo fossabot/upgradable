@@ -1,6 +1,6 @@
 {
   "name": "upgradable",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Interactive upgrade machine for NPM CLI tools",
   "author": "Omri",
   "license": "MIT",
@@ -10,7 +10,9 @@
   },
   "main": "lib/start/index.js",
   "scripts": {
-    "start": "./index.js"
+    "start": "./index.js",
+    "lint": "./node_modules/eslint/bin/eslint.js -c .eslintrc **/*.js --quiet",
+    "prepublishOnly": "npm run lint"
   },
   "bin": {
     "upgradable": "./index.js"
@@ -20,10 +22,13 @@
     "tag-version-prefix": ""
   },
   "dependencies": {
-    "boxt": "^0.2.0",
+    "boxt": "^0.3.0",
     "colors": "^1.1.2",
-    "npm": "^5.6.0",
+    "npm": "^5.7.1",
     "prompt-confirm": "^1.2.0",
     "semver": "^5.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2"
   }
 }

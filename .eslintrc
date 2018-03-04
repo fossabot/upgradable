@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "Promise": true
+  },
+  "plugins": [],
+  "extends": "eslint:all",
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "padded-blocks": ["error", "never"],
+    "dot-location": ["error", "property"],
+    "function-paren-newline": ["error", "consistent"],
+    "func-style": ["error", "declaration"],
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "no-console": 1,
+    "global-require": 1,
+    "one-var": "off"
+  }
+}
